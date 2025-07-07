@@ -32,7 +32,16 @@ async function main() {
       await listTasks(args[0]);
       break;
     default:
-      console.log("❌ Unknown command");
+      console.log(`❌ Unknown command: ${command}`);
+      console.log(`
+Available commands:
+  • add <task>
+  • update <taskId> <updated task>
+  • delete <taskId>
+  • mark-in-progress <taskId>
+  • mark-done <taskId>
+  • list [status]
+      `);
   }
 
   process.exit();

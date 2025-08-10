@@ -3,7 +3,7 @@
 A command-line task tracker built with **Node.js**, **MongoDB**, and **Mongoose**.  
 Easily add, update, delete, and list your tasks — all stored in a MongoDB database.  
 
-**Project URL (compulsory):** https://roadmap.sh/projects/task-tracker
+**Project URL: https://roadmap.sh/projects/task-tracker
 
 ---
 

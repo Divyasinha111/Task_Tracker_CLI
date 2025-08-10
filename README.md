@@ -34,7 +34,8 @@ Easily add, update, delete, and list your tasks — all stored in a MongoDB data
 git clone <your-repo-url>
 cd task_cli_node
 
-2. Install dependencies: npm install
+2. Install dependencies: npm install.
+
 3. Make sure MongoDB is running locally or update the connection string in your code to point to your MongoDB server.
 
 How to Run
